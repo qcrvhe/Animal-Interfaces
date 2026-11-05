@@ -21,9 +21,11 @@ private int troopSize;
         return getName() + " pounds its chest rapidly.";
 
     }
-
     @Override
     public String escapeEnclosure() {
         return getName() + " climbs up a drooping tree branch and hoists itself outside of the enclosure!";
+    }
+    public String toCsv() {
+        return "Gorilla," + getName() + "," + getWeightKg() + "," + troopSize;
     }
 }

@@ -25,4 +25,8 @@ public class Tortoise extends Reptile implements Swimmable {
     public String swim() {
         return getName() + " paddles around the water.";
     }
+
+    public String toCsv() {
+        return "Tortoise," + getName() + "," + getWeightKg() + "," + shellPattern;
+    }
 }

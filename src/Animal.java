@@ -10,7 +10,7 @@ public abstract class Animal {
     public abstract String makeSound();
     public abstract String eat();
     public abstract String responseToDanger();
-
+    public abstract String toCsv();
 
     public String getName() { return name; }
     public double getWeightKg() { return weightKg; }

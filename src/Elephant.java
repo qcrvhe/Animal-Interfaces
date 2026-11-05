@@ -26,5 +26,8 @@ public class Elephant extends Mammal implements Escape {
         return getName() + " charges into the fence and rumbles out!";
     }
 
+    public String toCsv() {
+        return "Elephant," + getName() + "," + getWeightKg() + "," + herdSize;
+    }
 
 }

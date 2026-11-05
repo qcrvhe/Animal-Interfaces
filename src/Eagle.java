@@ -20,4 +20,9 @@ public class Eagle extends Bird {
     public String responseToDanger() {
         return getName() + " swoops down with maximum force.";
     }
+
+    public String toCsv() {
+        return "Eagle," + getName() + "," + getWeightKg() + "," + wingspanCm;
+    }
+
 }
